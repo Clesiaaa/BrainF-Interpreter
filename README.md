@@ -1,6 +1,6 @@
-# 🧠 Brainfuck Interpreter (Rust)
+# 🧠 BF Interpreter (Rust)
 
-A **Brainfuck interpreter** written in **Rust**, simple, fast, and usable as a **system command**.
+A **BF interpreter** written in **Rust**, simple, fast, and usable as a **system command**.
 
 ---
 
@@ -31,15 +31,15 @@ cargo --version
 ### Local installation
 
 ```bash
-git clone https://github.com/Clesiaaa/BrainFuck-Interpreter
-cd brainfuck
+git clone https://github.com/Clesiaaa/BF-Interpreter
+cd BF-Interpreter
 cargo build --release
 ```
 
 Then copy the compiled binary to your Cargo bin directory:
 
 ```bash
-cp target/release/brainfuck ~/.cargo/bin/
+cp target/release/bf ~/.cargo/bin/
 ```
 
 Make sure `~/.cargo/bin` is in your `$PATH`.
@@ -57,14 +57,14 @@ cargo run program.bf
 ## ▶️ Usage
 
 ```bash
-brainfuck program.bf
+bf program.bf
 ```
 
 ### Example
 
 ```bash
 echo ">++++[<++++++++>-]<+." > hello.bf
-brainfuck hello.bf
+bf hello.bf
 ```
 
 ---
@@ -90,18 +90,18 @@ cargo build --release
 Generated binary:
 
 ```text
-target/release/brainfuck
+target/release/bf
 ```
 
 Run directly:
 
 ```bash
-./target/release/brainfuck program.bf
+./target/release/bf program.bf
 ```
 
 ---
 
-## 📚 About Brainfuck
+## 📚 About BF
 
 Brainfuck is a minimalist esoteric programming language made of only 8 instructions:
 
